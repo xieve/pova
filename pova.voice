@@ -1,0 +1,21 @@
+name pova
+language en
+gender male
+
+pitch 35 110
+echo 45 10
+tone 500 170  1000 110  1500 50
+flutter 0
+roughness 4
+voicing 125
+speed 95
+
+formant 0  98 175 150
+formant 1  97 100 100
+formant 2  97  95 100
+formant 3  97  95 100
+formant 4  97  85 100
+formant 5 105  80 100
+formant 6  95  80 100
+formant 7 100 100 100
+formant 8 100 100 100
