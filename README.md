@@ -8,6 +8,17 @@ Pova is a dialog manager which utilises the Julius speech-to-text engine, the eS
 - [Julius](https://github.com/julius-speech/julius)
 - [eSpeak](http://espeak.sourceforge.net/)
 
+## "Installing" the custom Voice
+If you want a more natural and less robotic voice, simply execute `espeak --version` in the terminal to find out where the espeak data is located and copy the pova.voice file to the voices subfolder. If you don't want this, you can switch back to the standard espeak voice by specifying `--standard-voice`.
+
+## Terminal options
+| Option    | Description   |
+| ---       | ---           |
+| `-v`      | Be verbose (Display everything) |
+| `-q`      | Be quiet (No error messages, just in- and output) |
+| `-qq`     | Shut up (Display nothing at all) |
+| `--standard-voice` | Use standard eSpeak voice instead of `pova.voice` |
+
 ## Using pova
 A conversation goes like this:
 ```

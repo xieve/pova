@@ -27,4 +27,5 @@ def run(args, verbose = verbose):
 
 def say(out):
     if verbose > -2: print("[INFO]\tOUTPUT: " + out)
-    run(["espeak", "-s", "150", '"%s"' % out])
+    if "--standard-voice" in sys.argv: run(["espeak", "-s", "150", '"%s"' % out])
+    else: run(["espeak", "-v", "pova", "-s", "150", '"%s"' % out])
